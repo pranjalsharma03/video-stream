@@ -86,6 +86,19 @@ video {
   margin: 0 0.5rem;
 }
 
+.option__button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  height: 50px;
+  border-radius: 5px;
+  color: var(--main-light);
+  font-size: 1.2rem;
+  width: 50px;
+  margin: 0 0.5rem;
+}
+
 .background__red {
   background-color: #f6484a;
 }
@@ -156,6 +169,10 @@ video {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#inviteButton{
+  display: none;
 }
 
 #showChat {
